@@ -21,7 +21,7 @@ namespace Merso.Models
 
         public int Km { get; set; }
 
-        public TimeSpan Model { get; set; }
+        public int Model { get; set; }
 
         public string Color { get; set; }
 
@@ -31,5 +31,8 @@ namespace Merso.Models
 
 
     }
+
+
+
 }
 

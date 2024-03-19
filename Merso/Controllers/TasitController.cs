@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Merso.Data;
 using Merso.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -45,13 +46,29 @@ namespace Merso.Controllers
         }
 
         // GET: Cars/Create
+       // public IActionResult Create()
+        //{
+        //    return View();
+        //}
+
+
+
+
         public IActionResult Create()
         {
+            // Veritabanından markaları al
+            var markalar = _context.Brands.ToList();
+
+            // Döküman menüsü için bir SelectList oluştur
+            ViewBag.BrandSelectList = new SelectList(markalar, "Id", "Name");
+
             return View();
         }
 
+
+
         // POST: Cars/Create
-       
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,CarPlate,Km,Model,Color,GearType,Brand")] Tasit tasit)
@@ -66,23 +83,39 @@ namespace Merso.Controllers
         }
 
         // GET: Cars/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        //public async Task<IActionResult> Edit(int? id)
+        //{
+        //  if (id == null)
+        // {
+        //    return NotFound();
+        //}
+
+        //var tasit = await _context.Tasits.FindAsync(id);
+        //if (tasit == null)
+        //{
+        //   return NotFound();
+        //}
+        //return View(tasit);
+        //}
+
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null)
+            // Retrieve car data
+            var car = await _context.Tasits.FindAsync(id);
+            if (car == null)
             {
                 return NotFound();
             }
 
-            var tasit = await _context.Tasits.FindAsync(id);
-            if (tasit == null)
-            {
-                return NotFound();
-            }
-            return View(tasit);
+            // Retrieve brands from the database (same logic as in Create)
+            var brands = _context.Brands.ToList();
+            ViewBag.BrandSelectList = new SelectList(brands, "Id", "Name"); // Cast brands to list
+
+            return View(car);
         }
 
         // POST: Cars/Edit/5
-       
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,CarPlate,Km,Model,Color,GearType,Brand")] Tasit tasit)
