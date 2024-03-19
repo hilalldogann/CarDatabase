@@ -1,3 +1,12 @@
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.csproj.AssemblyReference.cache
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.AssemblyInfoInputs.cache
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.AssemblyInfo.cs
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.csproj.CoreCompileInputs.cache
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.MvcApplicationPartsAssemblyInfo.cs
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.MvcApplicationPartsAssemblyInfo.cache
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.RazorAssemblyInfo.cache
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.RazorAssemblyInfo.cs
 /Users/hilaldogan/Projects/Merso/Merso/bin/Debug/net7.0/appsettings.Development.json
 /Users/hilaldogan/Projects/Merso/Merso/bin/Debug/net7.0/appsettings.json
 /Users/hilaldogan/Projects/Merso/Merso/bin/Debug/net7.0/Merso.staticwebassets.runtime.json
@@ -54,15 +63,6 @@
 /Users/hilaldogan/Projects/Merso/Merso/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/hilaldogan/Projects/Merso/Merso/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/hilaldogan/Projects/Merso/Merso/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.csproj.AssemblyReference.cache
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.GeneratedMSBuildEditorConfig.editorconfig
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.AssemblyInfoInputs.cache
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.AssemblyInfo.cs
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.csproj.CoreCompileInputs.cache
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.MvcApplicationPartsAssemblyInfo.cs
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.MvcApplicationPartsAssemblyInfo.cache
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.RazorAssemblyInfo.cache
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.RazorAssemblyInfo.cs
 /Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/staticwebassets/msbuild.Merso.Microsoft.AspNetCore.StaticWebAssets.props
 /Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/staticwebassets/msbuild.build.Merso.props
 /Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Merso.props
@@ -78,4 +78,4 @@
 /Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.pdb
 /Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.genruntimeconfig.cache
 /Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/ref/Merso.dll
-/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.csproj.Up2Date
+/Users/hilaldogan/Projects/Merso/Merso/obj/Debug/net7.0/Merso.csproj.CopyComplete

@@ -10,8 +10,6 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Merso
 build_property.RootNamespace = Merso
 build_property.ProjectDir = /Users/hilaldogan/Projects/Merso/Merso/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -60,6 +58,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/hilaldogan/Projects/Merso/Merso/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hilaldogan/Projects/Merso/Merso/Views/Tasit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFzaXQvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hilaldogan/Projects/Merso/Merso/Views/Tasit/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFzaXQvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hilaldogan/Projects/Merso/Merso/Views/Tasit/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFzaXQvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hilaldogan/Projects/Merso/Merso/Views/Tasit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFzaXQvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/hilaldogan/Projects/Merso/Merso/Views/Tasit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGFzaXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/hilaldogan/Projects/Merso/Merso/Views/_ViewImports.cshtml]

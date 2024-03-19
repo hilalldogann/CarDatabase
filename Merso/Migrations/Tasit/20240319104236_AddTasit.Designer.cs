@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Merso.Migrations.Tasit
 {
     [DbContext(typeof(TasitContext))]
-    [Migration("20240318220456_AddTasit")]
+    [Migration("20240319104236_AddTasit")]
     partial class AddTasit
     {
         /// <inheritdoc />
@@ -43,8 +43,9 @@ namespace Merso.Migrations.Tasit
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("BrandId")
-                        .HasColumnType("int");
+                    b.Property<string>("Brand")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("CarPlate")
                         .IsRequired()
@@ -61,13 +62,10 @@ namespace Merso.Migrations.Tasit
                     b.Property<int>("Km")
                         .HasColumnType("int");
 
-                    b.Property<string>("Model")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<TimeSpan>("Model")
+                        .HasColumnType("time(6)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("BrandId");
 
                     b.ToTable("Tasits");
                 });
@@ -266,17 +264,6 @@ namespace Merso.Migrations.Tasit
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
-                });
-
-            modelBuilder.Entity("Merso.Models.Tasit", b =>
-                {
-                    b.HasOne("Merso.Models.Brand", "Brand")
-                        .WithMany()
-                        .HasForeignKey("BrandId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Brand");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -11,6 +11,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Views\Brand\" />
+    <None Remove="Views\Tasit\" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
@@ -27,5 +28,6 @@
 
   <ItemGroup>
     <Folder Include="Views\Brand\" />
+    <Folder Include="Views\Tasit\" />
   </ItemGroup>
 </Project>

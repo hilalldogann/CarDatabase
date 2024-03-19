@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/Merso.bundle.scp.css"
     },
     {
+      "Id": "/Users/hilaldogan/Projects/Merso/Merso/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/hilaldogan/Projects/Merso/Merso/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -15,6 +19,10 @@
     {
       "Id": "/Users/hilaldogan/Projects/Merso/Merso/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/hilaldogan/Projects/Merso/Merso/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
     },
     {
       "Id": "/Users/hilaldogan/Projects/Merso/Merso/wwwroot/lib/bootstrap/LICENSE",
